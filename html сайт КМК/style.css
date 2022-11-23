@@ -1,0 +1,309 @@
+body {
+	background-color: #000;
+  background: url('pictures/fon.png');
+  margin: 0% auto;
+}
+
+.line1 {
+border-bottom: 2px solid #fff;
+width: 100%;
+position:relative;
+margin:0 auto;
+}
+
+.line3 {
+border-bottom: 1px solid #fff;
+width: 100%;
+position:relative;
+margin:left;
+opacity:0.2;
+}
+
+.line4 {
+border-bottom: 2px solid #fff;
+width: 100%;
+position:relative;
+margin:left;
+opacity:0.8;
+}
+
+.shapka{
+	background: url('pictures/фон.jpg');
+	background-size: 100% 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+	width:100%;
+	margin:0 auto;
+}
+
+.shapka2 {
+	background: url('pictures/фон.jpg');
+	background-size: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+	width:100%;
+	max-height:106px;
+	margin:0 auto;
+}
+
+.center1 {
+	width: 80%;
+	margin: 0% auto;
+}
+
+.center2 {
+	width: 70%;
+	margin: 0% auto;
+}
+
+.menutop {
+	margin-top:2.5%;
+}
+
+.line2 {
+border-bottom: 2px solid #fff;
+width: 100%;
+position:relative;
+margin:0 auto;
+}
+
+h1 {
+	text-align:center;
+	color:#fff;
+	font:48pt Montserrat;
+	font-weight: 800;
+}
+
+u {text-decoration-skip-ink: none;}
+
+/*Шапка блоки*/
+.shapcontainer {overflow:hidden;width:97%; margin:0 auto; max-height:106px;}
+.shapbox {white-space:normal;}
+.shapbox div {display:inline-block;}
+ul {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0% auto;
+  padding-left: 0%; /*убираем отступы*/ 
+}
+a {
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  float:left; /*Размещаем список горизонтально для реализации меню*/
+  margin-right:7%; /*Добавляем отступ у пунктов меню*/
+color:#fff; font:24pt Montserrat; font-weight: 400; text-align:center;
+}
+
+.go {text-decoration:none; width: 60%; padding:0;}
+
+.menu {
+	text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  float:left; /*Размещаем список горизонтально для реализации меню*/
+  margin-right:7%; /*Добавляем отступ у пунктов меню*/
+color:#fff; font:24pt Montserrat; font-weight: 400; text-align:center;
+}
+
+.menu:hover {
+	color: #DE0000; /* Цвет ссылки при наведении на нее курсора мыши */
+}
+
+}
+li {
+ float:left; /*Размещаем список горизонтально для реализации меню*/
+  margin-right:15%; /*Добавляем отступ у пунктов меню*/
+}
+
+.info1 {color:#fff; font:18pt Montserrat; font-weight: 900; text-align:right;}
+
+/*Текст+опыт блоки*/
+.opcontainer {overflow:hidden;width:97%; margin:0 auto; max-height:40%;}
+.opbox {white-space:normal;}
+.opbox div {display:inline-block;}
+.company {font:32pt Montserrat; font-weight: 600; color:#fff; text-align:left;}
+.bolee {font:32pt Jura; color:#fff; text-align:right; line-height:0.6em;}
+.des {font:114pt Faster One; color:#fff; text-align:right; line-height:0.6em;}
+.let {font:32pt Jura; color:#fff; text-align:right; line-height:0.6em;}
+.slideblock {position:relative; width:100%;}
+
+/*Слайдер+правая часть блоки*/
+.slcontainer {overflow:hidden;width:97%; margin:0 auto; max-height:40%;}
+.slbox {white-space:normal;}
+.slbox div {display:inline-block; border:0px solid white}
+.infoblock {font:20pt Montserrat; font-weight: 100; color:#fff; text-align:right;}
+
+/*Товары блоки*/
+.tovcontainer {overflow:hidden;width:100%; margin:0 auto;}
+.tbox {white-space:nowrap;}
+.tbox div {display:inline-block;width:33%;}
+.knopka {min-width:60%; border: 2px solid white; border-radius: 35px; font:26pt Montserrat; font-weight: 300; margin: 0 auto; background-color: #DE0000;}
+.knopka:hover {color:white; background-color: #11100E;}
+
+/*Преимущества блоки*/
+.pluscontainer {overflow:hidden;width:100%; margin:0 auto;}
+.plusbox {white-space:nowrap;}
+.plusbox div {display:inline-block; border:0px solid white}
+.plustext {font:16pt Montserrat; font-weight: 300; color:#fff; line-height:1em;}
+
+
+/*Сертификат блоки*/
+.sertificat {border-width:1; border-color:#fff; border-style: solid; border-radius: 15px;}
+.tsert {text-align:center; color:#fff; font:24pt Montserrat; font-weight: 300; width: 90%; margin: 0 auto;}
+.seesert {font:24pt Montserrat; font-weight: 400;}
+.seesert:hover {color:#DE0000;}
+
+/*Услуги блоки*/
+.uslugicontainer {overflow:hidden;width:100%; margin:0 auto;}
+.ubox {white-space:nowrap;}
+.ubox div {display:inline-block; height:200px; border:0px solid black;}
+.photoblock {position:relative; width:100%}
+.textfoto {position:absolute; text-align:center; color:#fff; font:18pt Montserrat; font-weight: 700; width: 100%; margin-top:10%;}
+.clickfoto {position:absolute; text-align:center; color:#fff; font:18pt Montserrat; font-weight: 700; width: 100%; margin-top:50%; text-decoration: none;}
+.clickfoto:hover {
+	color: #DE0000; /* Цвет ссылки при наведении на нее курсора мыши */
+}
+
+/*Фотоальбом блоки*/
+.fotocontainer {overflow:hidden;width:100%; margin:0 auto;}
+.fbox {white-space:normal;}
+.fbox div {display:inline-block;border:0px solid black}
+.aboutfoto {font:10pt Montserrat; font-weight: 100; color: #fff; text-align:center; min-width: 100%;}
+.seefoto {max-width:60%; border: 2px solid white; border-radius: 35px; font:32pt Montserrat; font-weight: 200; margin: 0 auto; background-color: #DE0000;}
+.seefoto:hover {background-color:#11100E;}
+
+
+/* Подвальные блоки */
+.container{overflow:hidden;width:100%; margin:0 auto;}
+.box{white-space:nowrap;}
+.box div{display:inline-block;vertical-align: top;}
+.continfo1 {font:18pt Montserrat; font-weight: 100; color:#fff; text-align:left;}
+.continfo11 {font:18pt Montserrat; font-weight: 100; color:#fff; text-align:left;}
+.continfo2 {font:18pt Montserrat; font-weight: 100; color:#fff; text-align:right;}
+.prava {font:12pt Montserrat; font-weight: 100; color:#fff; text-align:left;}
+.continfo11:hover {color:#DE0000;}
+
+/* Продукция */
+.zagprod {font:26pt Montserrat; font-weight: 600; color:#fff; text-align:center;}
+.textprod {font:16pt Montserrat; font-weight: 100; color:#fff; text-align:left;}
+.contprod {overflow:hidden;width:100%; margin:0 auto;}
+.contprodbox {white-space:normal;}
+.contprodbox div {display:inline-block; width:49%;}
+.imagecenter {font:16pt Montserrat; font-weight: 200; color:#fff; text-align: center; min-width: 100%;}
+
+
+
+
+
+
+
+
+
+
+/*Слайдер*/
+/* Собственно сам слайдер */
+.slider{
+    width: 60%;
+    position: relative;
+    margin: 0 	auto;
+}
+/* Картинка мастабируется по отношению к родительскому элементу */
+.slider .item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* Кнопки вперед и назад */
+.slider .prev, .slider .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    color: white;
+	font: 12pt Montserrat;
+    font-weight: 200;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+	margin: 0 auto;
+}
+
+
+.slider .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+/* При наведении на кнопки добавляем фон кнопок */
+
+.slider .prev:hover,
+.slider .next:hover {
+    background-color: #DE0000;
+}
+
+
+/* Заголовок слайда */
+.slideText {
+    position: absolute;
+    color: #fff;
+    font: 20pt Montserrat;
+	font-weight:200;
+    /* Выравнивание текста по горизонтали и по вертикали*/
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* Тень*/
+    text-shadow: 1px 1px 1px #000, 0 0 1em #000;
+}
+
+
+/* Кружочки */
+
+.slider-dots {
+  text-align: center;
+  width: 60%;
+ 
+}
+.slider-dots_item{
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.slider-dots_item:hover {
+    background-color: #aaa;
+}
+
+
+/* Анимация слайдов */
+
+.slider .item {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
